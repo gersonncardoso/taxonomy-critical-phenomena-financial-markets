@@ -1,0 +1,27 @@
+# Large generated data belongs in Zenodo, not GitHub
+*.csv
+*.parquet
+*.zip
+*.pkl
+*.joblib
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# LaTeX build outputs
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.spl
+*.abs
+
+# Temporary and OS files
+*.tmp
+.DS_Store
+Thumbs.db

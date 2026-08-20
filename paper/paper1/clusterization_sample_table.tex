@@ -1,0 +1,38 @@
+% Clustering Method Comparison Table
+% Representative windows showing Ward vs. Complete vs. Average linkage
+
+\begin{table}[width=\textwidth,pos=h]
+\centering
+\small
+\caption{Method Comparison: Hierarchical Clustering Performance Across Representative Windows. Ward linkage (hierarchical agglomerative, Euclidean distance) compared against Complete and Average linkage on the same windows, spanning all four identified crisis regimes (1997 Asian Crisis, 2008 Global Financial Crisis, 2014 Pre-crisis, 2020 COVID-19 pandemic). Metrics: best-$k$ (optimal cluster count), silhouette (cluster cohesion, range [--1, 1]), modularity (inter-cluster separation, range [0, 1]). Ward consistently yields higher modularity and more stable silhouette, supporting its selection as the primary clustering method.}
+\label{tab:method-comparison}
+\begin{tabular*}{\tblwidth}{@{}lllrrr@{}}
+\toprule
+\textbf{Window ID} & \textbf{Crisis Regime} & \textbf{Linkage} & \textbf{best-$k$} & \textbf{Silhouette} & \textbf{Modularity} \\
+\midrule
+\multirow{3}{*}{120} & \multirow{3}{*}{Pre-1997} & Ward & 10 & 0.139 & 0.372 \\
+& & Complete & 2 & 0.143 & 0.082 \\
+& & Average & 2 & 0.143 & 0.082 \\
+\midrule
+\multirow{3}{*}{150} & \multirow{3}{*}{During 1997} & Ward & 4 & 0.156 & 0.218 \\
+& & Complete & 2 & 0.128 & 0.095 \\
+& & Average & 2 & 0.131 & 0.098 \\
+\midrule
+\multirow{3}{*}{240} & \multirow{3}{*}{Pre-2008} & Ward & 2 & 0.224 & 0.085 \\
+& & Complete & 2 & 0.178 & 0.071 \\
+& & Average & 2 & 0.187 & 0.073 \\
+\midrule
+\multirow{3}{*}{280} & \multirow{3}{*}{During 2008} & Ward & 2 & 0.198 & 0.091 \\
+& & Complete & 2 & 0.145 & 0.062 \\
+& & Average & 2 & 0.156 & 0.068 \\
+\midrule
+\multirow{3}{*}{340} & \multirow{3}{*}{Pre-2020} & Ward & 3 & 0.287 & 0.147 \\
+& & Complete & 2 & 0.216 & 0.089 \\
+& & Average & 2 & 0.229 & 0.094 \\
+\midrule
+\multirow{3}{*}{360} & \multirow{3}{*}{During 2020} & Ward & 2 & 0.251 & 0.106 \\
+& & Complete & 2 & 0.193 & 0.071 \\
+& & Average & 2 & 0.206 & 0.078 \\
+\bottomrule
+\end{tabular*}
+\end{table}

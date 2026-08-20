@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this dataset and reproducibility package when using the deposited materials. Replace the DOI placeholder after Zenodo publication."
+title: "B3 Rolling-Window Systemic-Risk Data and Reproducibility Materials, 1995-2025"
+type: dataset
+abstract: "Data, validation outputs, network edge lists, figures, and reproducibility materials supporting Taxonomy of Critical Phenomena in Financial Markets."
+version: "1.0.0-prepublication"
+date-released: 2026-08-20
+repository-code: "https://github.com/gersonncardoso/taxonomy-critical-phenomena-financial-markets"
+license: CC-BY-4.0
+authors:
+  - family-names: Cardoso
+    given-names: Gerson Nassor
+    orcid: "https://orcid.org/0000-0002-8499-3390"
+  - family-names: Sato
+    given-names: Renato Cesar
+    orcid: "https://orcid.org/0000-0002-9902-9086"
+keywords:
+  - systemic risk
+  - financial networks
+  - B3
+  - PMFG
+  - rolling windows
+  - hierarchical clustering
+  - Marchenko-Pastur
+  - Forman-Ricci
+identifiers:
+  - type: doi
+    value: "10.xxxx/xxxxx"
+    description: "Replace only after Zenodo publishes the record."

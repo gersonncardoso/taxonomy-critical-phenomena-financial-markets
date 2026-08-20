@@ -1,0 +1,6 @@
+﻿- A 25-metric rolling architecture tracks B3 topology across 360 windows.
+- PMFG distances and spectral concentration change at four core events.
+- Size-conditioned residuals separate topology from the changing B3 universe.
+- Four event phases reveal recurring and episode-specific configurations.
+- The evidence supports descriptive monitoring, not causal prediction.
+

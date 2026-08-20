@@ -1,0 +1,18 @@
+Chaos, Solitons & Fractals submission checklist
+
+1. Manuscript PDF generated from the active CAS review format (single-column).
+2. LaTeX source files bundled for submission.
+3. CAS-compatible author-year bibliography style enabled; confirm the final portal preference before submission.
+4. Abstract included in Elsevier frontmatter (concise, no references).
+5. Keywords included in Elsevier format (4-7 terms).
+6. Highlights prepared as separate editable file (3 to 5 bullets, <= 85 chars each). ALL 5 BULLETS WITHIN LIMIT.
+7. Corresponding author identified with e-mail.
+8. Cover letter prepared and addresses all 5 mandatory CSF items.
+9. Own-journal citations included: silva2016structure, huang2018systemic, ma2019diversification, alexandre2021drivers, clemente2022multilayer (>= 5 CSF citations confirmed in text).
+10. Data availability, competing interests, CRediT, and AI declaration sections included; derived-data repository DOI remains pending.
+11. Role of the funding source included (no funding).
+12. Five potential reviewers prepared with name, affiliation and e-mail.
+13. Graphical abstract: not prepared (optional for CSF).
+14. Final metadata confirmed:
+    Corresponding author phone: +55 11 97337-9157
+    Corresponding author postal address: Rua Dona Antonia de Queiroz, 51, Apto 105, Consolacao, Sao Paulo, Brazil, CEP 01307-012

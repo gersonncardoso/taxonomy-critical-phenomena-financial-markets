@@ -1,0 +1,151 @@
+event_set,status,metric,metric_label,phase,events,positive,negative,median_change,mean_change,dominant_direction,concordance_share
+configured_4,confirmed_configured,community_residual_zscore,PMFG community residual z-score,during,4,2,2,-0.0043763000485128045,0.007576961591978126,mixed,0.5
+configured_4,confirmed_configured,community_residual_zscore,PMFG community residual z-score,post,4,1,3,-0.20812129935154008,0.1856089280255045,negative,0.75
+configured_4,confirmed_configured,dist_kurt,PMFG distance kurtosis (raw context),during,4,1,3,-1.709280063487304,-2.155177527571098,negative,0.75
+configured_4,confirmed_configured,dist_kurt,PMFG distance kurtosis (raw context),post,4,1,3,-0.8636202153756241,-1.3884356747980473,negative,0.75
+configured_4,confirmed_configured,dist_mean,PMFG mean distance (raw context),during,4,0,4,-0.12777745371506455,-0.1587899798790172,negative,1.0
+configured_4,confirmed_configured,dist_mean,PMFG mean distance (raw context),post,4,0,4,-0.0758751070258935,-0.10558363836057294,negative,1.0
+configured_4,confirmed_configured,dist_skew,PMFG distance skewness (raw context),during,4,4,0,0.5043617588189254,0.6547310355532217,positive,1.0
+configured_4,confirmed_configured,dist_skew,PMFG distance skewness (raw context),post,4,3,1,0.28954089045011,0.27067750266752116,positive,0.75
+configured_4,confirmed_configured,dist_var,PMFG distance variance (raw context),during,4,4,0,0.015084509747329469,0.014298392699159054,positive,1.0
+configured_4,confirmed_configured,dist_var,PMFG distance variance (raw context),post,4,4,0,0.011402753548426982,0.0148547994186846,positive,1.0
+configured_4,confirmed_configured,ks_stat,KS Gaussian-null statistic,during,4,4,0,0.20211751232929132,0.19116159536875438,positive,1.0
+configured_4,confirmed_configured,ks_stat,KS Gaussian-null statistic,post,4,3,1,0.02183450736033965,0.08055036123848375,positive,0.75
+configured_4,confirmed_configured,market_mode_frac,MP market-mode fraction,during,4,4,0,0.11281399633680435,0.14183565634019854,positive,1.0
+configured_4,confirmed_configured,market_mode_frac,MP market-mode fraction,post,4,3,1,0.045554296608522046,0.07829192286681254,positive,0.75
+configured_4,confirmed_configured,modularidade,PMFG modularity (raw context),during,4,3,1,0.01572790678135022,0.01817913773864581,positive,0.75
+configured_4,confirmed_configured,modularidade,PMFG modularity (raw context),post,4,4,0,0.03341426717609554,0.0361511240048001,positive,1.0
+configured_4,confirmed_configured,num_communities,PMFG communities (raw context),during,4,3,0,0.16666666666666696,0.18750000000000022,positive,0.75
+configured_4,confirmed_configured,num_communities,PMFG communities (raw context),post,4,2,0,0.16666666666666652,0.5,positive,0.5
+configured_4,confirmed_configured,planar_betweenness_centrality_mean_residual_size_only,Betweenness residual (size-adjusted),during,4,3,1,8.94649891211165e-05,1.0547542793893727e-05,positive,0.75
+configured_4,confirmed_configured,planar_betweenness_centrality_mean_residual_size_only,Betweenness residual (size-adjusted),post,4,2,2,0.0008146018255408497,0.00035144899462750826,mixed,0.5
+configured_4,confirmed_configured,planar_closeness_centrality_mean_residual_size_only,Closeness residual (size-adjusted),during,4,2,2,-0.003350062776603132,-0.001958907371299793,mixed,0.5
+configured_4,confirmed_configured,planar_closeness_centrality_mean_residual_size_only,Closeness residual (size-adjusted),post,4,1,3,-0.011669405754415378,-0.011330032051231013,negative,0.75
+configured_4,confirmed_configured,planar_eigenvector_centrality_mean_residual_size_only,Eigenvector residual (size-adjusted),during,4,2,2,-0.003525762260957092,-0.003178381109429501,mixed,0.5
+configured_4,confirmed_configured,planar_eigenvector_centrality_mean_residual_size_only,Eigenvector residual (size-adjusted),post,4,2,2,-0.007354482335972626,-0.006911544593102021,mixed,0.5
+configured_4,confirmed_configured,ricci_fr_iqr,Forman–Ricci curvature interquartile range (raw context),during,4,3,1,0.45151208513095153,0.17036412068357254,positive,0.75
+configured_4,confirmed_configured,ricci_fr_iqr,Forman–Ricci curvature interquartile range (raw context),post,4,2,2,0.6419749533659493,-0.09728861696780855,mixed,0.5
+configured_4,confirmed_configured,ricci_fr_kurt,Forman–Ricci curvature kurtosis (raw context),during,4,3,1,0.19119259957138932,0.14900389068475356,positive,0.75
+configured_4,confirmed_configured,ricci_fr_kurt,Forman–Ricci curvature kurtosis (raw context),post,4,3,1,0.5045402981329536,0.5825005579132234,positive,0.75
+configured_4,confirmed_configured,ricci_fr_max,Forman–Ricci maximum curvature (raw context),during,4,4,0,0.12329513705188666,0.18138370697849104,positive,1.0
+configured_4,confirmed_configured,ricci_fr_max,Forman–Ricci maximum curvature (raw context),post,4,3,1,0.12480657277018503,0.07710081383780476,positive,0.75
+configured_4,confirmed_configured,ricci_fr_mean,Forman–Ricci mean curvature (raw context),during,4,0,4,-0.6822750352491007,-0.8081831913758564,negative,1.0
+configured_4,confirmed_configured,ricci_fr_mean,Forman–Ricci mean curvature (raw context),post,4,1,3,-1.00705949873741,-0.73558771961751,negative,0.75
+configured_4,confirmed_configured,ricci_fr_min,Forman–Ricci minimum curvature (raw context),during,4,1,3,-2.896154109456959,-2.9547218380227904,negative,0.75
+configured_4,confirmed_configured,ricci_fr_min,Forman–Ricci minimum curvature (raw context),post,4,0,4,-5.0731116473432705,-6.420817777324636,negative,1.0
+configured_4,confirmed_configured,ricci_fr_q10,Forman–Ricci curvature 10th percentile (raw context),during,4,1,3,-1.7587384070242473,-2.8812179932956625,negative,0.75
+configured_4,confirmed_configured,ricci_fr_q10,Forman–Ricci curvature 10th percentile (raw context),post,4,0,4,-2.490355061464429,-2.3989112016511815,negative,1.0
+configured_4,confirmed_configured,ricci_fr_q50,Forman–Ricci curvature median (raw context),during,4,1,3,-0.6249479127511779,-0.48029528570429236,negative,0.75
+configured_4,confirmed_configured,ricci_fr_q50,Forman–Ricci curvature median (raw context),post,4,1,3,-1.4537428452464751,-0.7461610723322574,negative,0.75
+configured_4,confirmed_configured,ricci_fr_q90,Forman–Ricci curvature 90th percentile (raw context),during,4,2,2,0.003486160832012475,0.0010229628174974748,mixed,0.5
+configured_4,confirmed_configured,ricci_fr_q90,Forman–Ricci curvature 90th percentile (raw context),post,4,1,3,-0.1361904293711973,-0.09430468904726441,negative,0.75
+configured_4,confirmed_configured,ricci_fr_skew,Forman–Ricci curvature skewness (raw context),during,4,1,3,-0.16865765361581242,-0.14012658490354535,negative,0.75
+configured_4,confirmed_configured,ricci_fr_skew,Forman–Ricci curvature skewness (raw context),post,4,1,3,-0.23953941552382635,-0.2324522274821431,negative,0.75
+configured_4,confirmed_configured,ricci_fr_std,Forman–Ricci curvature standard deviation (raw context),during,4,4,0,0.6827171413620516,1.0767957589455384,positive,1.0
+configured_4,confirmed_configured,ricci_fr_std,Forman–Ricci curvature standard deviation (raw context),post,4,4,0,0.8926242854325612,0.887814939486847,positive,1.0
+configured_4,confirmed_configured,ricci_fr_var,Forman–Ricci curvature variance (raw context),during,4,4,0,4.564172239750601,22.819698852344004,positive,1.0
+configured_4,confirmed_configured,ricci_fr_var,Forman–Ricci curvature variance (raw context),post,4,4,0,12.218203024757653,11.915041625603907,positive,1.0
+configured_4,confirmed_configured,var_signal_frac,MP signal-variance fraction,during,4,4,0,0.12611284393564753,0.15210229337190734,positive,1.0
+configured_4,confirmed_configured,var_signal_frac,MP signal-variance fraction,post,4,4,0,0.0666690976648159,0.09400555158861885,positive,1.0
+configured_4,confirmed_configured,ward_group_residual_zscore,Ward group residual z-score,during,4,3,1,0.024259295802146058,-0.18937717203042545,positive,0.75
+configured_4,confirmed_configured,ward_group_residual_zscore,Ward group residual z-score,post,4,3,1,0.02799206290251194,-0.21785277291646007,positive,0.75
+proxy_11,no_3sigma_near_anchor__largest_drop_used,community_residual_zscore,PMFG community residual z-score,during,6,2,4,-0.10616162298148063,-0.026090462171712642,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,community_residual_zscore,PMFG community residual z-score,post,6,4,2,0.3957533237629707,0.2330961874229666,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,dist_kurt,PMFG distance kurtosis (raw context),during,6,2,4,-0.938292455019612,-0.9879004639180419,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,dist_kurt,PMFG distance kurtosis (raw context),post,6,1,5,-1.0560128046964672,-1.2128208236432607,negative,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,dist_mean,PMFG mean distance (raw context),during,6,2,4,-0.01781653937626304,-0.02103056513806863,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,dist_mean,PMFG mean distance (raw context),post,6,2,4,-0.0178299283033988,-0.0025782218341049434,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,dist_skew,PMFG distance skewness (raw context),during,6,4,2,0.24926202999205602,0.16783606470450171,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,dist_skew,PMFG distance skewness (raw context),post,6,4,2,0.27021392363819585,0.09178991447491268,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,dist_var,PMFG distance variance (raw context),during,6,3,3,-0.0004951281540383368,0.0009240819486211818,mixed,0.5
+proxy_11,no_3sigma_near_anchor__largest_drop_used,dist_var,PMFG distance variance (raw context),post,6,2,4,-0.00085633503157744,-0.0003008259158606436,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ks_stat,KS Gaussian-null statistic,during,6,5,1,0.04516870754321228,0.06555416622523161,positive,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ks_stat,KS Gaussian-null statistic,post,6,5,1,0.02694080037262045,0.008678001759528283,positive,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,market_mode_frac,MP market-mode fraction,during,6,4,2,0.018375103805593054,0.020302552146668387,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,market_mode_frac,MP market-mode fraction,post,6,3,3,0.016806310800445604,-0.0037564252467178114,mixed,0.5
+proxy_11,no_3sigma_near_anchor__largest_drop_used,modularidade,PMFG modularity (raw context),during,6,3,3,0.0014431999420526087,-0.007318768286174467,mixed,0.5
+proxy_11,no_3sigma_near_anchor__largest_drop_used,modularidade,PMFG modularity (raw context),post,6,2,4,-0.01659951908923052,-0.006684462442144591,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,num_communities,PMFG communities (raw context),during,6,2,4,-0.08333333333333393,0.09722222222222172,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,num_communities,PMFG communities (raw context),post,6,5,1,0.5,0.44444444444444425,positive,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,planar_betweenness_centrality_mean_residual_size_only,Betweenness residual (size-adjusted),during,6,4,2,0.00019145716743555004,-0.0011757964996246624,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,planar_betweenness_centrality_mean_residual_size_only,Betweenness residual (size-adjusted),post,6,2,4,-0.0010189051308104667,-0.001640771390245564,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,planar_closeness_centrality_mean_residual_size_only,Closeness residual (size-adjusted),during,6,3,3,0.00676333135097052,0.010663555043292904,mixed,0.5
+proxy_11,no_3sigma_near_anchor__largest_drop_used,planar_closeness_centrality_mean_residual_size_only,Closeness residual (size-adjusted),post,6,4,2,0.015600145272980499,0.012811342602129782,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,planar_eigenvector_centrality_mean_residual_size_only,Eigenvector residual (size-adjusted),during,6,4,2,0.0004904466426680089,0.002007019043397367,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,planar_eigenvector_centrality_mean_residual_size_only,Eigenvector residual (size-adjusted),post,6,4,2,0.001845774210379075,0.0019978544629902727,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_iqr,Forman–Ricci curvature interquartile range (raw context),during,6,5,1,0.4874557095569809,0.9237365538573528,positive,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_iqr,Forman–Ricci curvature interquartile range (raw context),post,6,3,3,0.9475267972644059,0.5536738017948252,mixed,0.5
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_kurt,Forman–Ricci curvature kurtosis (raw context),during,6,4,2,0.36971514327350063,-0.16604758385201168,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_kurt,Forman–Ricci curvature kurtosis (raw context),post,6,1,5,-0.45111267835019886,-0.6880233767929935,negative,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_max,Forman–Ricci maximum curvature (raw context),during,6,4,2,0.06836566372402864,0.04978215865752659,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_max,Forman–Ricci maximum curvature (raw context),post,6,4,2,0.05030195879304933,0.052919848237544365,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_mean,Forman–Ricci mean curvature (raw context),during,6,2,4,-0.4655886281611803,-0.708233409482513,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_mean,Forman–Ricci mean curvature (raw context),post,6,1,5,-1.4206950324267753,-1.1727625461944966,negative,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_min,Forman–Ricci minimum curvature (raw context),during,6,3,3,-0.5683774463442575,-2.0740100006859166,mixed,0.5
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_min,Forman–Ricci minimum curvature (raw context),post,6,4,2,1.978570648674527,-0.061783585616446736,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_q10,Forman–Ricci curvature 10th percentile (raw context),during,6,2,4,-0.9193217668814713,-1.267728390510445,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_q10,Forman–Ricci curvature 10th percentile (raw context),post,6,2,4,-3.8898993754371967,-3.332790502017405,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_q50,Forman–Ricci curvature median (raw context),during,6,1,5,-0.9556936970565619,-0.5926381106333286,negative,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_q50,Forman–Ricci curvature median (raw context),post,6,2,4,-1.3727732604612841,-1.015439107379252,negative,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_q90,Forman–Ricci curvature 90th percentile (raw context),during,6,5,1,0.05193058465413625,0.08151024836289673,positive,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_q90,Forman–Ricci curvature 90th percentile (raw context),post,6,4,2,0.03854175033371332,0.05077986598471044,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_skew,Forman–Ricci curvature skewness (raw context),during,6,1,5,-0.04391120200393972,-0.005431120422722785,negative,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_skew,Forman–Ricci curvature skewness (raw context),post,6,4,2,0.065334902445221,0.01841066582835711,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_std,Forman–Ricci curvature standard deviation (raw context),during,6,3,3,0.40261854397108743,0.6298773747766331,mixed,0.5
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_std,Forman–Ricci curvature standard deviation (raw context),post,6,4,2,1.7513789771498123,1.1311211002062074,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_var,Forman–Ricci curvature variance (raw context),during,6,3,3,3.21275260998425,13.710935707237411,mixed,0.5
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ricci_fr_var,Forman–Ricci curvature variance (raw context),post,6,4,2,24.60141648651102,22.65993958834153,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,var_signal_frac,MP signal-variance fraction,during,6,3,3,0.0032469421851929747,0.009308873612824379,mixed,0.5
+proxy_11,no_3sigma_near_anchor__largest_drop_used,var_signal_frac,MP signal-variance fraction,post,6,4,2,0.02358504831079823,0.0045854896552870355,positive,0.6666666666666666
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ward_group_residual_zscore,Ward group residual z-score,during,6,5,1,0.00879157351437962,0.03580383494437838,positive,0.8333333333333334
+proxy_11,no_3sigma_near_anchor__largest_drop_used,ward_group_residual_zscore,Ward group residual z-score,post,6,6,0,0.021685071019675706,0.24722387909864887,positive,1.0
+proxy_11,trigger_-3sigma,community_residual_zscore,PMFG community residual z-score,during,5,3,2,0.027732920201731348,0.041547753172380915,positive,0.6
+proxy_11,trigger_-3sigma,community_residual_zscore,PMFG community residual z-score,post,5,2,3,-0.18239603703211726,0.15826784300431185,negative,0.6
+proxy_11,trigger_-3sigma,dist_kurt,PMFG distance kurtosis (raw context),during,5,2,3,-0.7748479923955081,-1.6539439136054228,negative,0.6
+proxy_11,trigger_-3sigma,dist_kurt,PMFG distance kurtosis (raw context),post,5,2,3,-0.6557949415584418,-0.550453934154082,negative,0.6
+proxy_11,trigger_-3sigma,dist_mean,PMFG mean distance (raw context),during,5,0,5,-0.1198509635698164,-0.14042599192509664,negative,1.0
+proxy_11,trigger_-3sigma,dist_mean,PMFG mean distance (raw context),post,5,1,4,-0.07242041100021424,-0.0657033668606009,negative,0.8
+proxy_11,trigger_-3sigma,dist_skew,PMFG distance skewness (raw context),during,5,5,0,0.5506720614397971,0.6339192407305367,positive,1.0
+proxy_11,trigger_-3sigma,dist_skew,PMFG distance skewness (raw context),post,5,3,2,0.07733773837367242,0.1517814621441249,positive,0.6
+proxy_11,trigger_-3sigma,dist_var,PMFG distance variance (raw context),during,5,5,0,0.011463080305378149,0.011572897118948542,positive,1.0
+proxy_11,trigger_-3sigma,dist_var,PMFG distance variance (raw context),post,5,4,1,0.008540049205443049,0.00905884270432418,positive,0.8
+proxy_11,trigger_-3sigma,ks_stat,KS Gaussian-null statistic,during,5,5,0,0.13681078223434018,0.16506353092925813,positive,1.0
+proxy_11,trigger_-3sigma,ks_stat,KS Gaussian-null statistic,post,5,3,2,0.013871034922699366,0.04008977022850353,positive,0.6
+proxy_11,trigger_-3sigma,market_mode_frac,MP market-mode fraction,during,5,5,0,0.0966674111744869,0.1208853645021299,positive,1.0
+proxy_11,trigger_-3sigma,market_mode_frac,MP market-mode fraction,post,5,3,2,0.04478289568194807,0.03864913922057514,positive,0.6
+proxy_11,trigger_-3sigma,modularidade,PMFG modularity (raw context),during,5,4,1,0.026743248546651,0.0292523427430404,positive,0.8
+proxy_11,trigger_-3sigma,modularidade,PMFG modularity (raw context),post,5,5,0,0.03883389407323856,0.04237189475041448,positive,1.0
+proxy_11,trigger_-3sigma,num_communities,PMFG communities (raw context),during,5,4,0,0.16666666666666696,0.2833333333333335,positive,0.8
+proxy_11,trigger_-3sigma,num_communities,PMFG communities (raw context),post,5,3,0,0.33333333333333304,0.5333333333333333,positive,0.6
+proxy_11,trigger_-3sigma,planar_betweenness_centrality_mean_residual_size_only,Betweenness residual (size-adjusted),during,5,4,1,0.00017735467185429175,4.632934081338664e-05,positive,0.8
+proxy_11,trigger_-3sigma,planar_betweenness_centrality_mean_residual_size_only,Betweenness residual (size-adjusted),post,5,3,2,0.0005515536741828834,0.0003914699305385833,positive,0.6
+proxy_11,trigger_-3sigma,planar_closeness_centrality_mean_residual_size_only,Closeness residual (size-adjusted),during,5,2,3,-0.009477360873582613,-0.006434061752409894,negative,0.6
+proxy_11,trigger_-3sigma,planar_closeness_centrality_mean_residual_size_only,Closeness residual (size-adjusted),post,5,1,4,-0.011897143887406904,-0.015349174654010127,negative,0.8
+proxy_11,trigger_-3sigma,planar_eigenvector_centrality_mean_residual_size_only,Eigenvector residual (size-adjusted),during,5,2,3,-0.008813622811609691,-0.006021957794934502,negative,0.6
+proxy_11,trigger_-3sigma,planar_eigenvector_centrality_mean_residual_size_only,Eigenvector residual (size-adjusted),post,5,2,3,-0.01663654999559907,-0.009521384513413483,negative,0.6
+proxy_11,trigger_-3sigma,ricci_fr_iqr,Forman–Ricci curvature interquartile range (raw context),during,5,4,1,0.5249409899892421,0.6619351106233716,positive,0.8
+proxy_11,trigger_-3sigma,ricci_fr_iqr,Forman–Ricci curvature interquartile range (raw context),post,5,3,2,1.5751812631299384,0.35188867789774914,positive,0.6
+proxy_11,trigger_-3sigma,ricci_fr_kurt,Forman–Ricci curvature kurtosis (raw context),during,5,3,2,0.12555738954596496,0.006682025639097855,positive,0.6
+proxy_11,trigger_-3sigma,ricci_fr_kurt,Forman–Ricci curvature kurtosis (raw context),post,5,3,2,0.46347581992649883,0.33306066415942676,positive,0.6
+proxy_11,trigger_-3sigma,ricci_fr_max,Forman–Ricci maximum curvature (raw context),during,5,5,0,0.07334498662446665,0.1492143111188448,positive,1.0
+proxy_11,trigger_-3sigma,ricci_fr_max,Forman–Ricci maximum curvature (raw context),post,5,4,1,0.11883532943633401,0.07210055898685815,positive,0.8
+proxy_11,trigger_-3sigma,ricci_fr_mean,Forman–Ricci mean curvature (raw context),during,5,0,5,-0.7334496358564317,-0.9174239850369601,negative,1.0
+proxy_11,trigger_-3sigma,ricci_fr_mean,Forman–Ricci mean curvature (raw context),post,5,1,4,-1.2295270846220054,-0.869755468043636,negative,0.8
+proxy_11,trigger_-3sigma,ricci_fr_min,Forman–Ricci minimum curvature (raw context),during,5,1,4,-3.073156740173541,-3.1306215671313313,negative,0.8
+proxy_11,trigger_-3sigma,ricci_fr_min,Forman–Ricci minimum curvature (raw context),post,5,0,5,-4.642927859880466,-5.701289225372849,negative,1.0
+proxy_11,trigger_-3sigma,ricci_fr_q10,Forman–Ricci curvature 10th percentile (raw context),during,5,1,4,-2.0332520134865906,-2.8366473162112626,negative,0.8
+proxy_11,trigger_-3sigma,ricci_fr_q10,Forman–Ricci curvature 10th percentile (raw context),post,5,0,5,-2.185845803543714,-2.356298122029688,negative,1.0
+proxy_11,trigger_-3sigma,ricci_fr_q50,Forman–Ricci curvature median (raw context),during,5,1,4,-0.7822160035966466,-0.7327859524937498,negative,0.8
+proxy_11,trigger_-3sigma,ricci_fr_q50,Forman–Ricci curvature median (raw context),post,5,1,4,-1.7235344672618451,-0.9416357513181749,negative,0.8
+proxy_11,trigger_-3sigma,ricci_fr_q90,Forman–Ricci curvature 90th percentile (raw context),during,5,2,3,-0.00011087174871304839,0.0007961959042553701,negative,0.6
+proxy_11,trigger_-3sigma,ricci_fr_q90,Forman–Ricci curvature 90th percentile (raw context),post,5,1,4,-0.1813035907148839,-0.1665209435047344,negative,0.8
+proxy_11,trigger_-3sigma,ricci_fr_skew,Forman–Ricci curvature skewness (raw context),during,5,2,3,-0.16512234301518092,-0.07506248940137202,negative,0.6
+proxy_11,trigger_-3sigma,ricci_fr_skew,Forman–Ricci curvature skewness (raw context),post,5,2,3,-0.12268654929049161,-0.138771486307584,negative,0.6
+proxy_11,trigger_-3sigma,ricci_fr_std,Forman–Ricci curvature standard deviation (raw context),during,5,5,0,0.7759589424282511,1.0718692118295514,positive,1.0
+proxy_11,trigger_-3sigma,ricci_fr_std,Forman–Ricci curvature standard deviation (raw context),post,5,5,0,0.7565574465418141,0.8615634408978405,positive,1.0
+proxy_11,trigger_-3sigma,ricci_fr_var,Forman–Ricci curvature variance (raw context),during,5,5,0,5.697336135815913,19.88471931245859,positive,1.0
+proxy_11,trigger_-3sigma,ricci_fr_var,Forman–Ricci curvature variance (raw context),post,5,5,0,9.592901985208252,10.660050855443611,positive,1.0
+proxy_11,trigger_-3sigma,var_signal_frac,MP signal-variance fraction,during,5,5,0,0.12326510637217325,0.12909867412749693,positive,1.0
+proxy_11,trigger_-3sigma,var_signal_frac,MP signal-variance fraction,post,5,4,1,0.04632569753509602,0.05805522822121527,positive,0.8
+proxy_11,trigger_-3sigma,ward_group_residual_zscore,Ward group residual z-score,during,5,4,1,0.031243055618019766,-0.1389638940192087,positive,0.8
+proxy_11,trigger_-3sigma,ward_group_residual_zscore,Ward group residual z-score,post,5,4,1,0.0383945669382052,-0.10730476952584737,positive,0.8

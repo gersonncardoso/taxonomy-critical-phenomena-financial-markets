@@ -1,0 +1,32 @@
+% Validation Summary Statistics Table
+% Aggregated metrics across all 360 rolling windows (1995-2025)
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Comprehensive Validation Summary Statistics across 360 Rolling Windows (1995--2025). All statistics aggregated across the complete window history. KS: Kolmogorov--Smirnov test for non-Gaussianity; ADF: Augmented Dickey--Fuller stationarity test; Ward: hierarchical clustering quality metrics. Reference distributions: random-matrix spectral null for KS; size-only expectation for clustering.}
+\label{tab:validation-comprehensive}
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Diagnostic Category} & \textbf{Metric} & \textbf{Mean} & \textbf{Interpretation} \\
+\midrule
+\multicolumn{4}{c}{\textit{Correlation Matrix Non-Randomness (Kolmogorov--Smirnov Tests)}} \\
+& KS Statistic & 0.603 & Persistent non-Gaussian dependence \\
+& KS $p$-value & 0.0002 & Highly significant ($p < 0.001$) \\
+& Fraction Rejecting Null & 100\% & All windows show non-random structure \\
+\midrule
+\multicolumn{4}{c}{\textit{Asset Returns Stationarity (ADF Tests)}} \\
+& ADF Statistic & $-12.63$ & Strong mean-reversion evidence \\
+& Pct Stationary Tickers & 99.68\% & Nearly all tickers I(0) within windows \\
+\midrule
+\multicolumn{4}{c}{\textit{Hierarchical Clustering Quality (Ward Linkage)}} \\
+& Optimal Clusters (best-$k$) & 2.36 & Market typically splits into 2--3 groups \\
+& Silhouette Coefficient & 0.262 & Moderate cluster cohesion \\
+& Modularity Index & 0.133 & Weak-to-moderate group structure \\
+\midrule
+\multicolumn{4}{c}{\textit{Robustness Summary}} \\
+& Epochs w/ interpretable clusters & 94\% & Only 6\% of windows show ambiguous partitions \\
+& Crisis-period cluster compression & Yes & Best-$k$ drops $\sim 40\%$ during crises \\
+\bottomrule
+\end{tabular}
+\end{table}

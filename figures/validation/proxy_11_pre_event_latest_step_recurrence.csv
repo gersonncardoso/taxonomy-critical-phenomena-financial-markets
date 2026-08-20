@@ -1,0 +1,26 @@
+metric,metric_label,measurement_semantics,down,flat,up,trigger_up,trigger_down,trigger_flat,median_turning_points,median_relative_range
+community_residual_zscore,PMFG community residual z-score,mesoscopic structural diagnostic,4,3,4,2,1,2,2.0,4.1762140513886
+dist_kurt,PMFG distance kurtosis (raw context),raw PMFG distance context,7,0,4,0,5,0,2.0,0.489136332219259
+dist_mean,PMFG mean distance (raw context),raw PMFG distance context,8,0,3,2,3,0,2.0,0.030410140605784675
+dist_skew,PMFG distance skewness (raw context),raw PMFG distance context,6,0,5,3,2,0,2.0,0.6016431772924886
+dist_var,PMFG distance variance (raw context),raw PMFG distance context,3,0,8,4,1,0,2.0,0.24701073572246476
+ks_stat,KS Gaussian-null statistic,correlation-matrix validation diagnostic,2,0,9,3,2,0,2.0,0.13525548257820322
+market_mode_frac,MP market-mode fraction,correlation-matrix spectral diagnostic,3,0,8,3,2,0,2.0,0.13197031629681083
+modularidade,PMFG modularity (raw context),mesoscopic structural diagnostic,7,0,4,1,4,0,3.0,0.14025205424204604
+num_communities,PMFG communities (raw context),mesoscopic structural diagnostic,3,6,2,1,0,4,1.0,0.3529411764705882
+planar_betweenness_centrality_mean_residual_size_only,Betweenness residual (size-adjusted),size-conditioned centrality residual,8,1,2,1,3,1,3.0,2.73044900868227
+planar_closeness_centrality_mean_residual_size_only,Closeness residual (size-adjusted),size-conditioned centrality residual,1,0,10,5,0,0,2.0,1.2473534048262926
+planar_eigenvector_centrality_mean_residual_size_only,Eigenvector residual (size-adjusted),size-conditioned centrality residual,4,0,7,2,3,0,2.0,0.31248000374811047
+ricci_fr_iqr,Forman–Ricci curvature interquartile range (raw context),Forman–Ricci geometric diagnostic,5,0,6,3,2,0,3.0,0.4629802349767524
+ricci_fr_kurt,Forman–Ricci curvature kurtosis (raw context),Forman–Ricci geometric diagnostic,3,0,8,3,2,0,2.0,1.711169570327028
+ricci_fr_max,Forman–Ricci maximum curvature (raw context),Forman–Ricci geometric diagnostic,4,0,7,3,2,0,3.0,0.1072119193991395
+ricci_fr_mean,Forman–Ricci mean curvature (raw context),Forman–Ricci geometric diagnostic,10,0,1,0,5,0,3.0,0.12333257101737749
+ricci_fr_min,Forman–Ricci minimum curvature (raw context),Forman–Ricci geometric diagnostic,6,0,5,2,3,0,3.0,0.2574596135488318
+ricci_fr_q10,Forman–Ricci curvature 10th percentile (raw context),Forman–Ricci geometric diagnostic,9,0,2,0,5,0,3.0,0.2030568056683605
+ricci_fr_q50,Forman–Ricci curvature median (raw context),Forman–Ricci geometric diagnostic,6,0,5,1,4,0,3.0,0.17237475073083566
+ricci_fr_q90,Forman–Ricci curvature 90th percentile (raw context),Forman–Ricci geometric diagnostic,4,0,7,4,1,0,3.0,0.16211776456452714
+ricci_fr_skew,Forman–Ricci curvature skewness (raw context),Forman–Ricci geometric diagnostic,4,0,7,4,1,0,3.0,0.4404836700884994
+ricci_fr_std,Forman–Ricci curvature standard deviation (raw context),Forman–Ricci geometric diagnostic,2,0,9,5,0,0,3.0,0.27682183079882317
+ricci_fr_var,Forman–Ricci curvature variance (raw context),Forman–Ricci geometric diagnostic,2,0,9,5,0,0,3.0,0.5311957287119221
+var_signal_frac,MP signal-variance fraction,correlation-matrix spectral diagnostic,3,0,8,3,2,0,1.0,0.1661558941822547
+ward_group_residual_zscore,Ward group residual z-score,mesoscopic structural diagnostic,3,4,4,1,1,3,0.0,0.05765355364002055

@@ -1,0 +1,84 @@
+# Configuração do Projeto - Systemic Risk Model
+# Autor: Gerson Nassor Cardoso - UNIFESP
+
+projeto:
+  nome: "Systemic Risk Model"
+  versao: "1.0.0"
+  autor: "Gerson Nassor Cardoso"
+  instituicao: "Universidade Federal de São Paulo (UNIFESP)"
+  descricao: "Análise de risco sistêmico no mercado brasileiro de ações"
+
+# ============================================
+# DADOS - Parâmetros que PODEM VARIAR
+# ============================================
+dados:
+  # Período de análise (ajustável!)
+  data_inicio: "1995-01-01"
+  data_fim: "2025-12-31"
+  
+  # Filtrar tickers ou baixar TUDO?
+  filtrar_tickers: true  # true = filtrar | false = baixar tudo
+  
+  # Categoria de tickers (se filtrar_tickers = true)
+  # Opções: 'ibovespa', 'small_mid_caps', 'todos', 'energia', 'commodities', etc
+  categoria_tickers: "ibovespa"  # ← NOVO!
+  
+  # Arquivo com lista de tickers
+  tickers_file: "configs/tickers_b3_completo.yaml"  # ← ATUALIZADO!
+  
+  # Diretórios
+  diretorios:
+    raw: "data/raw"
+    processed: "data/processed"
+    intermediate: "data/intermediate"
+    final: "data/final"
+
+# ============================================
+# EVENTOS ESPECIAIS (datas de crise)
+# ============================================
+eventos:
+  # Datas de referência para marcar crashes confirmados nos gráficos de evolução.
+  # Critério: choque diário <= média - 3 desvios-padrão e drawdown acumulado >= 25%,
+  # seguindo a definição de crash de Barro & Ursúa (2017). As datas abaixo são
+  # o início do choque local; os intervalos completos estão em periodos_crash.
+  datas_crise:
+    - "1997-10-27"   # crise asiática: choque <= -3σ; drawdown >= 25%
+    - "1998-08-27"   # default russo / LTCM: choque <= -3σ; drawdown >= 25%
+    - "2008-09-29"   # crise financeira global: choque <= -3σ; drawdown >= 25%
+    - "2020-03-09"   # COVID-19: choque <= -3σ; drawdown >= 25%
+
+  periodos_crash:
+    - nome: "Asian crisis"
+      anchor_original: "1997-10-01"
+      shock_start: "1997-10-27"
+      crash_start: "1997-10-31"
+      bottom_date: "1999-01-14"
+      crash_end: "1999-11-19"
+      recovered: true
+      max_drawdown: -0.7193754016735715
+    - nome: "Russian default / LTCM"
+      anchor_original: "1998-08-01"
+      shock_start: "1998-08-27"
+      crash_start: "1998-09-10"
+      bottom_date: "1998-09-10"
+      crash_end: "1998-11-23"
+      recovered: true
+      max_drawdown: -0.3482
+    - nome: "Global financial crisis"
+      anchor_original: "2008-10-01"
+      shock_start: "2008-09-29"
+      crash_start: "2008-10-08"
+      bottom_date: "2008-10-27"
+      crash_end: "2009-05-29"
+      recovered: true
+      max_drawdown: -0.4016
+    - nome: "COVID-19 crash"
+      anchor_original: "2020-03-01"
+      shock_start: "2020-03-09"
+      crash_start: "2020-03-16"
+      bottom_date: "2020-03-23"
+      crash_end: "2020-07-08"
+      recovered: true
+      max_drawdown: -0.3981
+
+# ... resto do config

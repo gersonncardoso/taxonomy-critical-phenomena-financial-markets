@@ -1,0 +1,32 @@
+\begin{table}[width=\textwidth,pos=h]
+\centering
+\caption{Phase-concordance of the 13-metric core panel relative to local pre-event means. Signs indicate the dominant direction and the number of anchors with that direction. Distance moments and modularity are raw descriptive context; group and centrality measures are size-conditioned residuals. ``Mixed'' denotes no directional majority.}
+\label{tab:phase-concordance}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabular*}{\tblwidth}{@{}llcccccc@{}}
+\toprule
+& & \multicolumn{2}{c}{Configured events ($n=4$)} & \multicolumn{2}{c}{Actual $-3\sigma$ triggers ($n=5$)} & \multicolumn{2}{c}{Fallback anchors ($n=6$)} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(l){7-8}
+Family & Metric & During--pre & Post--pre & During--pre & Post--pre & During--pre & Post--pre \\
+\midrule
+Distance & Mean & $-\;(4/4)$ & $-\;(4/4)$ & $-\;(5/5)$ & $-\;(4/5)$ & $-\;(4/6)$ & $-\;(4/6)$ \\
+(raw context) & Variance & $+\;(4/4)$ & $+\;(4/4)$ & $+\;(5/5)$ & $+\;(4/5)$ & mixed & $-\;(4/6)$ \\
+& Skewness & $+\;(4/4)$ & $+\;(3/4)$ & $+\;(5/5)$ & $+\;(3/5)$ & $+\;(4/6)$ & $+\;(4/6)$ \\
+& Kurtosis & $-\;(3/4)$ & $-\;(3/4)$ & $-\;(3/5)$ & $-\;(3/5)$ & $-\;(4/6)$ & $-\;(5/6)$ \\
+\midrule
+Mesoscopic & PMFG modularity (raw) & $+\;(3/4)$ & $+\;(4/4)$ & $+\;(4/5)$ & $+\;(5/5)$ & mixed & $-\;(4/6)$ \\
+& PMFG community residual & mixed & $-\;(3/4)$ & $+\;(3/5)$ & $-\;(3/5)$ & $-\;(4/6)$ & $+\;(4/6)$ \\
+& Ward group residual & $+\;(3/4)$ & $+\;(3/4)$ & $+\;(4/5)$ & $+\;(4/5)$ & $+\;(5/6)$ & $+\;(6/6)$ \\
+\midrule
+Centrality & Betweenness residual & $+\;(3/4)$ & mixed & $+\;(4/5)$ & $+\;(3/5)$ & $+\;(4/6)$ & $-\;(4/6)$ \\
+(size-adjusted) & Closeness residual & mixed & $-\;(3/4)$ & $-\;(3/5)$ & $-\;(4/5)$ & mixed & $+\;(4/6)$ \\
+& Eigenvector residual & mixed & mixed & $-\;(3/5)$ & $-\;(3/5)$ & $+\;(4/6)$ & $+\;(4/6)$ \\
+\midrule
+Matrix & KS statistic & $+\;(4/4)$ & $+\;(3/4)$ & $+\;(5/5)$ & $+\;(3/5)$ & $+\;(5/6)$ & $+\;(5/6)$ \\
+validation & MP signal fraction & $+\;(4/4)$ & $+\;(4/4)$ & $+\;(5/5)$ & $+\;(4/5)$ & mixed & $+\;(4/6)$ \\
+& MP market-mode fraction & $+\;(4/4)$ & $+\;(3/4)$ & $+\;(5/5)$ & $+\;(3/5)$ & $+\;(4/6)$ & mixed \\
+\bottomrule
+\end{tabular*}
+\end{table}

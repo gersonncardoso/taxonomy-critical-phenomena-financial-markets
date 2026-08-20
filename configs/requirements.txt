@@ -1,0 +1,82 @@
+# Dependência para processamento distribuído
+pyspark>=3.0.0
+# ============================================================================
+# DEPENDÊNCIAS DO PROJETO - Systemic Risk Model
+# ============================================================================
+# Autor: Gerson Nassor Cardoso - UNIFESP
+# Data: 2026-02-18
+# ============================================================================
+
+# Core - Análise de Dados
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+holidays>=0.35  # Calendário de feriados brasileiros
+openai>=1.0.0  # Para integração com modelos de linguagem (ChatGPT)
+
+# Visualização
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Análise de Redes
+networkx>=3.0
+python-louvain>=0.16  # Detecção de comunidades (Louvain)
+neo4j>=5.28.0  # Exportação e visualização das redes no Neo4j
+
+# Machine Learning (para análises futuras)
+scikit-learn>=1.3.0
+
+# Download de Dados Financeiros
+yfinance>=0.2.18
+
+# Calendários e Feriados
+holidays>=0.35
+
+# Configurações
+pyyaml>=6.0
+
+# Logs e Utilitários
+tqdm>=4.65.0
+
+# Jupyter (para notebooks de análise)
+jupyter>=1.0.0
+ipykernel>=6.22.0
+
+# Testes
+pytest>=7.3.0
+
+# Qualidade de Código
+black>=23.3.0
+flake8>=6.0.0
+
+# Documentação
+sphinx>=6.2.0
+
+# ============================================================================
+# DEPENDÊNCIAS OPCIONAIS (para funcionalidades avançadas)
+# ============================================================================
+
+# Para análise estatística avançada
+statsmodels>=0.14.0
+
+# Para detecção de anomalias
+pyod>=1.1.0
+
+# Para análise de séries temporais
+arch>=6.2.0
+
+# Para exportação LaTeX
+pylatex>=1.4.0
+
+# ============================================================================
+# NOTAS DE INSTALAÇÃO
+# ============================================================================
+# 
+# Instalação básica:
+#   pip install -r requirements.txt
+#
+# Atualizar tudo:
+#   pip install --upgrade -r requirements.txt
+#
+# ============================================================================
