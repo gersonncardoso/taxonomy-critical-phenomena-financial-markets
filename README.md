@@ -23,6 +23,11 @@ This repository contains only the Paper 1 pipeline, manuscript source, figures, 
 - `data/`: small, publication-relevant validation tables only.
 - `zenodo/`: instructions and metadata for the complete large-data archive.
 
+The active artwork is duplicated under `paper/paper1/figures/` because the
+LaTeX source resolves paths relative to `paper/paper1/`, while the Python
+plotting scripts resolve paths relative to the repository root. Both copies
+come from the same active artwork set and must remain synchronized.
+
 ## Large data archive
 
 The complete matrices, 360 PMFG edge lists, filtered edge lists, and large rolling outputs are not stored in this GitHub repository because they exceed practical GitHub repository limits. They are packaged for Zenodo in `deliverables/zenodo_paper1.zip` and should be published there to obtain a persistent DOI.
