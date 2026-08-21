@@ -17,9 +17,15 @@ This repository contains only the Paper 1 pipeline, manuscript source, figures, 
 
 - `paper/`: active Paper 1 LaTeX source, tables, bibliography, and highlights.
 - `figures/`: active vector artwork and publication figures cited by Paper 1.
-- `scripts/`: scripts used to generate the active validation outputs and figures.
-- `src/`: network metric implementations used by the Paper 1 pipeline.
+- `pipeline/`: the six executable Paper 1 stages plus `pipeline_paper1.py`,
+	which runs data preparation, rolling correlations, validation, PMFG networks,
+	metrics, and figures.
+- `main/`: stage-specific entry points called by the Paper 1 runner.
+- `scripts/`: scripts used to generate the active sensitivity outputs and figures.
+- `src/`: network, statistical, rolling-window, and visualization implementations
+	used by the Paper 1 pipeline.
 - `configs/`: configuration required for the B3 event calendar and pipeline.
+- `requirements.txt`: dependencies for the Paper 1 pipeline only.
 - `data/`: small, publication-relevant validation tables only.
 - `zenodo/`: instructions and metadata for the complete large-data archive.
 
@@ -37,8 +43,21 @@ After Zenodo publication, add the DOI here and in the manuscript Data Availabili
 ## Reproduction
 
 1. Use Python with dependencies from `requirements.txt`.
-2. Run the validation and figure scripts in `scripts/` from the repository root.
-3. Compile the manuscript from `paper/paper1/` with:
+2. From the repository root, run the six-stage Paper 1 pipeline:
+
+```text
+python -m pipeline.pipeline_paper1
+```
+
+Use `--force` to recompute existing intermediate outputs. The runner executes
+only the B3 financial-network stages 1--6: data preparation, rolling
+correlations, heatmaps/dendrograms, KS/MP/ADF validation, PMFG construction,
+network metrics, and final figures. It intentionally excludes GDELT, news
+sentiment, MRQAP, Spark sentiment stages, and all Paper 2 code.
+
+3. Run the sensitivity and figure scripts in `scripts/` from the repository root
+	after the six-stage pipeline has produced the required rolling outputs.
+4. Compile the manuscript from `paper/paper1/` with:
 
 ```text
 pdflatex systemic_risk_brazill_p1.tex
