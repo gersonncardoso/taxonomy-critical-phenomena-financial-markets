@@ -581,29 +581,30 @@ The atlas confirms visually that the four configured core events share the stron
 
 The pre-event state can be resolved into six constituent rolling windows for every sensitivity anchor. The final within-pre-event step rises in the size-conditioned closeness residual in 10/11 anchors (5/5 actual triggers), in KS displacement in 9/11, and in distance variance, MP signal fraction, and market-mode fraction in 8/11; raw PMFG modularity falls in 7/11. These alignments concern only the explicitly defined fifth-to-sixth pre-window difference and do not establish a common precursor trajectory. Figure~\ref{fig:proxy-11-pre-trajectories} displays the complete 25-metric trajectory atlas in three consecutive panels.
 
-\FloatBarrier
-\begin{figure}[H]
+\begin{center}
+\captionsetup{type=figure}
 \centering
 \includegraphics[width=0.98\linewidth,height=0.84\textheight,keepaspectratio]{figures/validation/proxy_11_pre_event_trajectories_part1.pdf}
 \caption{Exploratory six-window pre-event trajectories for the first nine metrics across the 11-anchor B3 sensitivity calendar. Values are standardized within anchor and metric; blue and grey markers distinguish actual triggers from fallback proxies. Overlapping windows make this a descriptive display, not evidence of causality or prediction.}
 \label{fig:proxy-11-pre-trajectories}
-\end{figure}
+\end{center}
 
-\begin{figure}[H]
+\begin{center}
+\captionsetup{type=figure}
 \ContinuedFloat
 \centering
 \includegraphics[width=0.98\linewidth,height=0.84\textheight,keepaspectratio]{figures/validation/proxy_11_pre_event_trajectories_part2.pdf}
 \caption[]{Exploratory six-window pre-event trajectories (continued): metrics 10--18.}
-\end{figure}
+\end{center}
 
-\begin{figure}[H]
+\begin{center}
+\captionsetup{type=figure}
 \ContinuedFloat
 \centering
 \includegraphics[width=0.98\linewidth,height=0.84\textheight,keepaspectratio]{figures/validation/proxy_11_pre_event_trajectories_part3.pdf}
 \caption[]{Exploratory six-window pre-event trajectories (continued): metrics 19--25.}
-\end{figure}
+\end{center}
 
-\clearpage
 The trajectory atlas should be read row by row and anchor by anchor. Standardization makes the direction and shape of each local path visible, but removes cross-metric level information; overlapping windows also prevent the lines from being treated as independent observations. The figure is therefore useful for documenting within-pre-event alignments while remaining unsuitable as an early-warning test. In particular, the visual paths are descriptive within-anchor trajectories, not evidence that any metric anticipates or causes stress.
 
 \input{phase_concordance_core_table.tex}
@@ -851,18 +852,18 @@ The reproducibility package available from the corresponding author upon reasona
 \item \textbf{Hierarchical Dendrograms:} 360 Ward-linkage dendrograms (one per rolling window, 1995--2025), plus companion temporal evolution and crisis-regime overlays.
 \item \textbf{Correlation Heatmaps:} 360 rolling correlation matrix heatmaps visualizing asset linkage strength and network reordering across crisis regimes.
 \item \textbf{Validation Metrics (CSV):}
-  \begin{itemize}
-  \item Kolmogorov--Smirnov (KS) test statistics: \texttt{ks\_results.csv} (non-randomness diagnostics)
-  \item Augmented Dickey--Fuller (ADF) stationarity tests: \texttt{adf\_results.csv} (99.68\% stationarity rate)
-  \item Marchenko--Pastur spectral diagnostics: \texttt{mp\_results.csv} (signal/noise eigenvalue fractions)
-  \item Hierarchical clustering quality: \texttt{best\_k\_by\_crisis\_regime.csv}, including silhouette scores, modularity, and optimal $k$ trajectories
-  \item Rolling validation summary: \texttt{validation\_summary.csv} (aggregated metrics across 360 windows)
-  \end{itemize}
+    \begin{itemize}
+    \item Kolmogorov--Smirnov (KS) test statistics: \texttt{ks\_results.csv} (non-randomness diagnostics)
+    \item Augmented Dickey--Fuller (ADF) stationarity tests: \texttt{adf\_results.csv} (99.68\% stationarity rate)
+    \item Marchenko--Pastur spectral diagnostics: \texttt{mp\_results.csv} (signal/noise eigenvalue fractions)
+    \item Hierarchical clustering quality: \texttt{best\_k\_by\_crisis\_regime.csv}, including silhouette scores, modularity, and optimal $k$ trajectories
+    \item Rolling validation summary: \texttt{validation\_summary.csv} (aggregated metrics across 360 windows)
+    \end{itemize}
 \item \textbf{Correlation and Significance Data:}
-  \begin{itemize}
-  \item Pairwise correlation $p$-values: \texttt{pvalues\_long.csv} (long-format rolling $p$-value matrix)
-  \item Crisis regime classification: \texttt{crisis\_dates\_3sigma\_proxy\_b3.csv} and crisis consistency matrices
-  \end{itemize}
+    \begin{itemize}
+    \item Pairwise correlation $p$-values: \texttt{pvalues\_long.csv} (long-format rolling $p$-value matrix)
+    \item Crisis regime classification: \texttt{crisis\_dates\_3sigma\_proxy\_b3.csv} and crisis consistency matrices
+    \end{itemize}
 \item \textbf{Supplementary Figures:} the 11-anchor sensitivity atlas and pre-event trajectories presented and interpreted in the main Results section.
 \item \textbf{Pipeline Code and Configuration:} Python scripts for reproducibility, parameter configurations, and window-generation logs.
 \end{itemize}
