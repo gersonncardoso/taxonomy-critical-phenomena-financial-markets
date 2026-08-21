@@ -37,6 +37,6 @@ include the Paper 2 GDELT, sentiment, or MRQAP materials.
 
 ## Citation after publication
 
-Cardoso, G. N., & Sato, R. C. (2026). B3 rolling-window systemic-risk data and reproducibility materials for *Taxonomy of Critical Phenomena in Financial Markets* [dataset]. Zenodo. DOI: to be assigned after publication.
+Cardoso, G. N., & Sato, R. C. (2026). B3 rolling-window systemic-risk data and reproducibility materials for *Taxonomy of Critical Phenomena in Financial Markets* [dataset]. Zenodo. https://doi.org/10.5281/zenodo.22037008
 
 Do not replace the placeholder with a DOI until Zenodo has published the record and the DOI resolves.

@@ -25,5 +25,5 @@ keywords:
   - Forman-Ricci
 identifiers:
   - type: doi
-    value: "10.xxxx/xxxxx"
-    description: "Replace only after Zenodo publishes the record."
+    value: "10.5281/zenodo.22037008"
+    description: "Published Zenodo record."
